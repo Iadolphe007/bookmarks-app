@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Bookmark</title>
+        <link rel="stylesheet" href="boookm.css">
+    </head>
+
+    <body>
+
+        <div class="input">
+            <h3 class="header"> ADD BOOKMARKS</h3>
+            <input type="text" placeholder="site name" id="site">
+            <br>
+            <input type="text" placeholder="add URL" id="url">
+            <br>
+            <label for="category" id="label">select category </label>
+            <select name="site" id="category">
+                <option value="" id="option"></option>
+                <option value="entertainment" id="usual">entertainment</option>
+                <option value="others" id="recommended">others</option>
+
+            </select>
+            <br>
+            <input type="text" placeholder="add comment." id="comment">
+            <br>
+            <button id="save-btn">ADD</button>
+
+            <h3>SAVED BOOKMARKS</h3>
+            <ul id="listinput"></ul>
+            <button id="clear-btn">CLEAR ALL</button>
+
+
+
+
+        </div>
+
+
+
+        <script src="bookm.js"></script>
+        <!-- <script src="index.js"></script> -->
+    </body>
+
+</html>

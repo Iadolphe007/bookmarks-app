@@ -1,0 +1,110 @@
+body{
+    background-color: lightblue;
+    color: rgb(5, 5, 5);
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+    margin-left: 5rem;
+}
+.input{
+    background-color: beige;
+    width: 40rem;
+    height: auto;
+    margin-left: 17rem;
+    margin-top: 8rem;
+    border: 1px solid black;
+    
+}
+
+#site{
+    margin-bottom: 10px;
+    width: 20rem;
+    height: 25px;
+    border: 1px solid ;
+}
+#url{
+   
+    margin-bottom: 10px;
+    width: 20rem;
+    height: 25px;
+    border: 1px solid ;
+}
+
+#cat{
+    margin-bottom: 10px;
+    height: 25px;
+    width: 5rem;
+    background-color: white;
+    border: 1px solid ;
+    
+}
+
+#comment{
+    margin-bottom: 10px;
+    width: 20rem;
+    height: 3rem;
+    border: 1px solid ;
+    margin-top: 10px;
+}
+#save-btn{
+    margin-bottom: 10px;
+    height: 25px;
+    background-color: rgb(81, 81, 245);
+    color: white;
+    width: 7rem;
+    border: 1px solid ;
+    cursor: pointer;
+}
+#save-btn:hover{
+    color: white;
+    background-color: darkblue;
+    transition-duration: 0.4sec;
+
+}
+ul{
+    list-style: none;
+    padding-left: 3rem;
+    font-size: 20px;
+    text-align: left;
+   
+    
+}
+li{
+    
+    margin-top: 20px;
+    
+  
+}
+a{
+    text-decoration: none;
+    color: black;
+    font-size: 15px;
+    
+    
+}
+
+button{
+    margin-bottom: 20px;
+    background-color: white;
+    border: none;
+    width: 6rem;
+    height:25px ;
+}
+button:hover{
+    color: white;
+    background-color:red;
+    transition-duration: 0.4sec;
+
+}
+/* #details-btn{
+    color: white;
+    background-color: red;
+    width: 3rem;
+    height: 20px;
+    padding-left: 5px;
+
+} */
+#delete-btn{
+    width: 3rem;
+    height: 20px;
+}
